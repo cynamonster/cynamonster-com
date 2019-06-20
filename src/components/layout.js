@@ -38,13 +38,13 @@ const Layout = ({ children }) => (
             <a href="mail:ben@cynamonster.com" >
               <FontAwesomeIcon icon={faEnvelope}/>
             </a>
-            <a target="_blank" href="https://github.com/cynamonster">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/cynamonster">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="https://www.behance.net/gallery/81160273/Design-Work" target="_blank">
+            <a href="https://www.behance.net/gallery/81160273/Design-Work" rel="noopener noreferrer" target="_blank">
               <FontAwesomeIcon icon={faBehance} />
             </a>
-            <a href="https://linkedin.com/in/bencynamon" target="_blank">
+            <a href="https://linkedin.com/in/bencynamon" rel="noopener noreferrer" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>

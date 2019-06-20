@@ -15,7 +15,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <main class="about">
       <div className="about__container animated fadeInLeft">
-        <div class="about--img"><img src={hero} /></div>
+        <div class="about--img"><img alt="A headshot of Ben Cynamon" src={hero} /></div>
         <div class="about__main">
           <div class="about__main--big-text">
             <h1>I'm Ben Cynamon</h1>
@@ -28,7 +28,7 @@ const IndexPage = () => (
           </div>
           <div class="about__main--small-text animated fadeInRight">
             
-            <a target="_blank" href="https://github.com/cynamonster/cynamonster-com">
+            <a rel="noopener noreferrer" target="_blank" href="https://github.com/cynamonster/cynamonster-com">
               <button>
                 Site repository &nbsp;
                 <FontAwesomeIcon icon={faChevronCircleRight} />
