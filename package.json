@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ben-cynamon-development-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Web portfolio of Ben Cynamon, created with Gasby JS.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ben Cynamon < Ben.cynamon@gmail.com >",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
@@ -44,6 +44,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://cynamonster.com"
+    "url": "https://heady-form.surge.sh"
   }
 }
