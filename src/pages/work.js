@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import igem from '../images/igem2018-mock.png'
 import pad from '../images/PAD-iphone-mock.png'
 
+
 const Work = () => (
   <Layout>
     <SEO title="Ben Cynamon - Work Experience" />
@@ -31,6 +32,9 @@ const Work = () => (
             </div>
           </a>
         </div>
+    </section>
+    <section>
+      
     </section>
   </Layout>
 )

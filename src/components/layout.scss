@@ -129,6 +129,10 @@ header {
   position: absolute;
 }
 
+body {
+  background-color: #121625 !important;
+}
+
 body a {
   text-decoration: none;
   color: inherit;
@@ -884,4 +888,16 @@ button {
     background: $color-white;
     color: $color-blue;
   }
+}
+
+.nav-menu {
+  margin-bottom: 0 !important;
+}
+
+.blog-container {
+  // background-color: #121625;
+}
+
+.header-text {
+  color: #999999 !important;
 }

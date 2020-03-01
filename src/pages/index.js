@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
+import 'semantic-ui-css/semantic.min.css'
 
 import hero from '../images/ClubDayHeadshot03.jpg'
 
