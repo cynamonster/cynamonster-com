@@ -16,7 +16,7 @@ const Header = (  ) => {
         <Menu.Item
           name='Home'
           link='/'
-          // active={this.selectedScreen === '/'}
+          // active={global.window.location.href === '/'}
           onClick={handleItemClick}
         >
           <Link to="/">
@@ -25,9 +25,9 @@ const Header = (  ) => {
         </Menu.Item>
 
         <Menu.Item
-          name='Home'
+          name='Contact'
           link='/contact'
-          // active={this.selectedScreen === '/'}
+          // active={global.window.location.href === '/'}
           onClick={handleItemClick}
         >
           <Link to="/">
@@ -38,7 +38,7 @@ const Header = (  ) => {
         <Menu.Item
           name='Development'
           link='/work'
-          // active={this.selectedScreen === '/development'}
+          // active={global.window.location.href === '/development'}
           onClick={handleItemClick}
         >
           <Link to="/work">
@@ -49,7 +49,7 @@ const Header = (  ) => {
         <Menu.Item
           name='Blog'
           link='/blog'
-          // active={this.selectedScreen === '/blog'}
+          // active={global.window.location.href === '/blog'}
           onClick={handleItemClick}
         >
           <Link to="/blog">
