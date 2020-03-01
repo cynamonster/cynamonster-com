@@ -17,44 +17,32 @@ const Header = (  ) => {
           name='Home'
           link='/'
           // active={global.window.location.href === '/'}
-          onClick={handleItemClick}
-        >
-          <Link to="/">
+          onClick={handleItemClick}>
             About
-          </Link>
         </Menu.Item>
 
         <Menu.Item
           name='Contact'
           link='/contact'
           // active={global.window.location.href === '/'}
-          onClick={handleItemClick}
-        >
-          <Link to="/">
+          onClick={handleItemClick}>
             Contact
-          </Link>
         </Menu.Item>
 
         <Menu.Item
           name='Development'
           link='/work'
           // active={global.window.location.href === '/development'}
-          onClick={handleItemClick}
-        >
-          <Link to="/work">
+          onClick={handleItemClick}>
             Development
-          </Link>
         </Menu.Item>
 
         <Menu.Item
           name='Blog'
           link='/blog'
           // active={global.window.location.href === '/blog'}
-          onClick={handleItemClick}
-        >
-          <Link to="/blog">
+          onClick={handleItemClick}>
             Blog
-          </Link>
         </Menu.Item>
       </Menu>
   )
