@@ -23,43 +23,41 @@ const Blog = () => (
             <i>February 29, 2020</i>
         {/* </Header> */}
         <Divider />
-        <p>Begin your day with a run.</p>
         <p>Shake yourself of your dreams. Bring yourself into reality.</p>
         <p>Let every leaf on every tree dance before you like 8 billion fragile, invaluable souls.</p>
-        <p>Some fresh and full of life. Others have wrinkled and prepare to let go of this journey they've shared.</p>
-        <p>You leap, rhythmically, from foot to foot.</p>
-        <p>You're dancing too!</p>
+        <p>Notice some are fresh and full of life while others have wrinkled and prepare to let go of this great journey they've shared.</p>
+        <p>Leaping rhythmically from foot to foot, one could say you're dancing too!</p>
 
         <br />
 
-        <p>Watch scattered sunlight fragments relagate from magnificent trees to the bushes and shrubs below.</p>
-        <p>Some green towers over its fellow flora yet they remain inseparable, their roots intertwined, each plant comprising a mere piece of an ecosystem.</p>
+        <p>Watch scattered sunlight fragment among leaves of magnificent trees and litter the bushes and shrubs below. Consider that, though some green towers over its fellow flora, they remain inseparable, their roots intertwined, each plant comprising a mere piece of an ecosystem.</p>
 
         <br />
 
-        <p>Draw breath deeply through your nose before exhaling through your mouth,</p>
-        <p>letting your breathing find a tempo slower than the pounding drumbeat of your rubber-insulated feet.</p>
-        <p>
-          If only a yogi could see you now. They would be forgiven for mistaking your breathing exercise for meditation.
-          You definitely aren't meditating, right? Isn't that all about sitting still, not jumping around?
-        </p>
+        <p>Draw breath deeply through your nose before exhaling through your mouth. Let your breathing find a tempo far slower than the pounding drumbeat of your rubber-insulated feet.</p>
+        <p>If only a yogi could see you now. They might mistake your breathing exercise for meditation. You definitely aren't meditating, right? Isn't that all about sitting still, not jumping around?</p>
+
+        <br />
+
         <p>No matter.</p>
+
+        <br />
+
         <p>The thought melts away like your the dreams which lingered in your mind during your morning's first moments of waking, each now a mere memory of a memory.</p>
         <p>You've far more pressing matters to consider:</p>
         <li> - A supposed friend who's spoken ill behind your back.</li>
-        <li> - An unintented impoliteness imparted on an acquaintance.</li>
-        <li> - A reoccurring feeling you're living sub-optimally and already missed the oppportunity to reach your maximum potential.</li>
+        <li> - An unintended impoliteness imparted on an acquaintance.</li>
+        <li> - A recurring feeling you're living sub-optimally and already missed the opportunity to reach your maximum potential.</li>
 
+        <br />
         <br />
 
         <p>You may find yourself trekking over a variety of terrains.</p>
         <p>Your footsteps may massage the gravel rocks you come across.</p>
         <p>
           The sound of tiny grinding stones may remind you of home-made musical shaker instruments and being far more concerned with fruit juice flavors
-          than tax report filings and you may wonder what you wouldn't give away to award all you know now to who you were then but 
-          <a href={RISING_ASIA_LINK}>
-            while the yearning for another chance at youth tempts us all, you are strong enough to hold fast to the truth that time works not that way.
-          </a>
+          than tax report filings and you may wonder what you wouldn't give away to award all you know now to who you were then but&nbsp;
+          <a href={RISING_ASIA_LINK} style={{color: '#49828b'}}>while the yearning for another chance at youth tempts us all, you are strong enough to hold fast to the truth that time works not that way.</a>
         </p>
 
         <br />
